@@ -1,0 +1,28 @@
+.feature{
+    display: flex;
+    align-items: flex-start ;
+    margin-bottom: 2rem;
+}
+
+.feature-icon{
+    position: relative;
+    margin-left: 2rem;
+}
+
+.inner-icon{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 2rem;
+}
+
+.feature-text{
+    margin-left: 1rem;
+}
+
+.feature-text h3{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--light-blue);
+    line-height: 1.4;
+}
